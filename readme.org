@@ -1,0 +1,14 @@
+* Recover-C-x-1
+  back to the status before type [C-x 1].
+
+* INSTALL
+  - git clone 
+  - /in emacs/ eval (package-install-file "path/to/recover-c-x-1/recover-c-x-1.el")
+  - add 
+    #+BEGIN_SRC emacs-lisp
+(recover-c-x-1-minor-mode 1)
+    #+END_SRC
+    to .emacs
+* keymap
+  C-x 9     =>    recover
+  
